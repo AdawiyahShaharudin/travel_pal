@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Poland</title>
+    <link rel="stylesheet" href="../src/index.css" type="text/css"/> <!--css for index.html-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    
+  <body>
+
+    <!--navigation bar-->
+    <div class="navbar">
+      <nav>
+          <div class="logo">
+            <img src="logo2.jpg">
+          </div>
+          <div class="header">
+            <a style="text-decoration: none;" href="meal.html" class="bar"><strong>Polish Cuisine</strong></a>
+            <a style="text-decoration: none;" target="_blank" href="https://www.poland.travel/en" class="bar" id="bar"><strong>About Poland</strong></a>
+          </div>
+      </nav>
+    </div> 
+
+    <br><br><br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> <!--text animation-->
+
+    <!--text animation-->
+    <div class="top">
+      <img src="logo.png" width="15%" alt="logo">
+      <h1 class="ml6">
+        <span class="text-wrapper">
+          <span class="letters">Republic of Poland</span>
+        </span>
+      </h1>
+    </div>
+
+    <hr>
+    
+    <!--postcard-->
+    <div class="box">
+      <div class="row">
+        <img src="b2.jpg" width="24.5%">
+        <img src="b3.jpg" width="24.5%">
+        <img src="b4.jpg" width="24.5%">
+        <img src="b1.jpg" width="24.5%">
+      </div>
+    </div>
+    <hr>
+
+    <br>
+
+    <!-- About Section -->
+    <div class="about">
+      <div class="row">
+        <h1 class="w3-center">Poland &#10084</h1><!--emoji-->
+        <h2 style="color: #D9153D;">A historical sketch.</h2>
+        <p class="poland">&#127984 Home to the world’s biggest castle.</p>
+        <p class="poland">&#9935&#10024 One of the world’s oldest salt mines is here !</p>
+        <p class="poland">&#128003 Home to some amazing wildlife.&#128002</p>
+        <p class="poland">&#128301 The most famous astronomer was Polish !</p>
+        <p class="poland">A MUST try food ; pierogi &#129375&#128523;</p>
+        <p class="poland">&#128214 Polish Language Is Extremely Unique & Difficult | Best to learn</p>
+        <br>
+      </div>
+
+      <!-- weather API -->
+      <div class="row2">
+        <main>
+          <form method="POST" id="weather">
+            <strong><h3>What’s the weather like today?</h3></strong>
+            <select name="location" id="city" required>
+            <option value="">Select City</option>
+                <option>Warsaw</option> 
+                <option>Poznań</option>  
+                <option>Kraków</option>
+                <option>Łódź Voivodeship</option>
+                <option>Zakopane</option>
+                <option>Lublin</option>
+                <option>Wrocław</option>
+                <option>Gdańsk</option>
+                <option>Częstochowa</option>
+                <option>Białystok</option>
+          </select>
+    
+          <input id="postSubmit" type="submit" value="Search"/>
+          </form>
+        </main>
+      </div>
+
+    </div>
+
+    <br>
+    <hr>
+
+    <!--function for weather API-->
+    <script src="function.js"></script>
+
+    <br><br>
+
+    <!--5 places of attraction-->
+    <h1><strong>Explore the Beauty of Poland </strong> </h1>
+      
+    <div class="container">
+      
+      <div class="box1">
+        <div class="image-box">
+          <a target="_blank" href="https://www.wilanow-palac.pl/palace.html"><img src="castle.jpg" alt="castle"></a><!--image with link to another website-->
+          <div class="text">
+            <strong><p>Warsaw Private Wilanow Palace & Garden Tour</p></strong>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+
+      <div class="box1">
+        <div class="image-box">
+          <a target="_blank" href=" https://www.wieliczka-saltmine.com/"><img src="saltmine.jpg" alt="saltmine"></a>
+          <div class="text">
+            <strong><p>Wieliczka Salt Mine, Wieliczka</p></strong>
+          </div> 
+        </div>
+      </div>
+
+      <br>
+
+      <div class="box1">
+        <div class="image-box">
+            <a target="_blank" href="https://warsawtour.pl/en/project/old-town-2/"><img src="oldtown.jpg" alt="oldtown"></a>
+            <div class="text">
+              <strong><p>Warsaw Old Market Place, Warsaw</p></strong>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+      <br>
+
+      <div class="container2">
+
+        <div class="box1">
+          <div class="image-box">
+            <a target="_blank" href=" http://auschwitz.org/en/"><img src="museum.jpg" alt="museum"></a>
+            <div class="text">
+              <strong><p>Memorial and Museum Auschwitz-Birkenau</p></strong>
+            </div>
+          </div>
+        </div>
+
+        <br>
+          
+        <div class="box1">
+          <div class="image-box">
+            <a target="_blank" href="https://www.zakopane.pl/en/tourist-area/tourism/tatra-mountains/aktywny-wypoczynek-lato/summer-trails/morskie-oko"><img src="lake1.jpg" alt="lake"></a>
+            <div class="text">
+              <strong><p>Morskie Oko Lake, Tatra National Park</p></strong>
+            </div>
+          </div>
+        </div>
+
+        <br> 
+
+        <div class="box1">
+          <div class="image-box">
+            <a target="_blank" href="https://www.lazienki-krolewskie.pl/en"><img src="park.jpg" alt="museum"></a>
+            <div class="text">
+              <strong><p>Lazienki Park, Warsaw</p></strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <br><br>
+
+    <!--cities in Poland-->
+
+    <center>
+
+      <div class="container3">
+        <h1><strong>Cities in Poland</strong></h1>
+      </div>
+
+      <div class="city">
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/wroclaw"><img class="poland" src="wroclaw.jpg" alt="Wroclaw" style="width:190px"> </a>
+            <div class="text">
+              <strong><p>Wrocław</p></strong>
+            </div>
+          </div>
+
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/warsaw"><img class="poland" src="warsaw.jpg" alt="Warsaw" style="width:190px"> </a>
+            <div class="text">
+              <strong><p>Warsaw</p></strong>
+            </div>
+          </div> 
+          
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/krakow"><img src="krakow.jpg" alt="Krakow" style="width:204px"></a>
+            <div class="text">
+              <strong><p>Kraków</p></strong>
+            </div>
+          </div>   
+
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/lublin"><img src="lublin.jpg" alt="Lublin" style="width:200px"></a>
+            <div class="text">
+              <strong><p>Lublin</p></strong>
+            </div>
+          </div>   
+
+          <div class="poland">
+            <a target="_blank" href="https://www.lonelyplanet.com/poland/malopolska/zakopane"><img src="zakopane.jpg" alt="Zakopane" style="width:192px"></a>
+            <div class="text">
+              <strong><p>Zakopane</p></strong>
+            </div>
+          </div> 
+      </div>
+
+      <div class="city">
+
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/poznan"><img src="poznan.jpg" alt="Poznan" style="width:195px"></a>
+            <div class="text">
+              <strong><p>Poznań</p></strong>
+            </div>
+          </div> 
+
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/gdansk-and-tricity"><img src="gdansk.jpg" alt="Gdansk" style="width:192px"></a>
+            <div class="text">
+              <strong><p>Gdańsk</p></strong>
+            </div>
+          </div> 
+          
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/bialystok"><img src="bialystok.jpg" alt="Bialystok" style="width:195px"></a>
+            <div class="text">
+              <strong><p>Białystok</p></strong>
+            </div>
+          </div> 
+
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/other-cities-towns/czestochowa-2"><img src="czestochowa.jpg" alt="Częstochowa" style="width:192px"></a>
+            <div class="text">
+              <strong><p>Częstochowa</p></strong>
+            </div>
+          </div>
+
+          <div class="poland">
+            <a target="_blank" href="https://www.poland.travel/en/cities/lodz"><img src="lodz.jpg" alt="Lodz" style="width:195px"></a>
+            <div class="text">
+              <strong><p>Łódź Voivodeship</p></strong>
+            </div>
+          </div>
+      </div>
+    </center>
+
+    <br><br><br>
+
+    <!--footer-->
+        <div class="footer">
+          <ul class="list-inline list-group list-group-horizontal">
+              <li class="list-inline-item list-group-item"><a href="index.html">Home</a></li>
+              <li class="list-inline-item list-group-item"><a href="meal.html">Polish Cuisine</a></li>
+              <li class="list-inline-item list-group-item"><a target="_blank" href="https://www.poland.travel/en">About Poland</a></li>
+              <li class="list-inline-item list-group-item"><a target="_blank" href="https://en.wikipedia.org/wiki/Poland">Explore More</a></li>
+          </ul>
+          <p class="text-center">© Copyright Poland 2023- All Right Reserved.
+          </p>
+        </div>
+    </div>
+
+  </body>
+</html>
+
